@@ -48,7 +48,7 @@
                     <div class="prev" @click="prev"></div>
                     <div class="next" @click="next"></div>
                     <div class="thumb" v-for="(thumb, index) in slides" :class="(activeSlide === index) ? 'active' : ''
-                         "@click="changeSlide(index) -->">
+                         "@click="changeSlide(index)">
 
                         <!-- Click sulle thumbs -->
                         <img :src="thumb.image" :alt="thumb.title">

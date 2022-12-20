@@ -85,7 +85,7 @@ createApp({
             }
         },
         //* Autoplay
-      /*   autoScroll() {
+        autoScroll() {
             this.autoplay = setInterval(() => {
                 console.log(this)
                 this.next();
@@ -94,6 +94,6 @@ createApp({
         stopAutoScroll() {
             clearInterval(this.autoplay);
             this.autoplay = null;
-        } */
+        }
     }
 }).mount('#app');
