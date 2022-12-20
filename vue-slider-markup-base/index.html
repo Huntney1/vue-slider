@@ -33,7 +33,7 @@
                 <div class="item" @mouseover="stopAutoScroll" @mouseleave="autoScroll">
 
                     <!-- Immagini in slides -->
-                    <img :src="slides[activeSlide].image" :alt="slides[activeSlide].title">
+                    <img :src="slides[activeSlide].image" alt="image not found">
 
                     <!-- Titoli e testi sull'immagine -->
                     <div class="text">
@@ -51,7 +51,7 @@
                          "@click="changeSlide(index)">
 
                         <!-- Click sulle thumbs -->
-                        <img :src="thumb.image" :alt="thumb.title">
+                        <img :src="thumb.image" alt="image not found">
                     </div>
                 </div>
             </div>
