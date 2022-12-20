@@ -30,10 +30,10 @@
             <div class="slider-wrapper" tabindex="0">
 
                 <!-- Effetto del mouse over e leave -->
-                <div class="item" @mouseover="stopAutoScroll" @mouseleave="AutoScroll">
+                <div class="item" @mouseover="stopAutoScroll" @mouseleave="autoScroll">
 
                     <!-- Immagini in slides -->
-                    <img :src="slide[activeSlide].image" :alt="slide[activeSlide].title">
+                    <img :src="slides[activeSlide].image" :alt="slides[activeSlide].title">
 
                     <!-- Titoli e testi sull'immagine -->
                     <div class="text">

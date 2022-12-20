@@ -87,7 +87,6 @@ createApp({
         //* Autoplay
         autoScroll() {
             this.autoplay = setInterval(() => {
-                console.log(this)
                 this.next();
             }, 3000);
         },
